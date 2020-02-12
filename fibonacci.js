@@ -8,7 +8,7 @@ let average = 0;
 /* 
 Funcion que calcula la sucesion 
 */
-function sucesion(number){
+function succession(number){
   let arrayF = [0,1];
   for(let i=2; i<number; i++){
     arrayF[i]= arrayF[i-2] + arrayF[i-1];
