@@ -3,7 +3,7 @@ Declaracion de Variables y Lectura
 */
 let averArray = new averArray();
 let number = prompt('Ingresar un numero entero: ');
-let average = 0;
+
 
 /* 
 Funcion que calcula la sucesion 
@@ -25,5 +25,11 @@ function average(numbers){
    var numbers = prompt("Introducir un numero entero para rellenar el arreglo: ");
     averArray.push(numbers);
   }
-  average = 
+  sum = 0;
+  for(let k=0; k<=10; k++){
+    sum = sum+averArray[k];
+  }
+  average = sum/10;
+  return average;
 }
+succession();
