@@ -1,7 +1,7 @@
 /* 
 Declaracion de Variables y Lectura 
 */
-let averArray = [];
+let averArray = new averArray();
 let number = prompt('Ingresar un numero entero: ');
 let average = 0;
 
@@ -22,7 +22,8 @@ Funcion que rellena un array y calcula su promedio
 */
 function average(numbers){
   for(let j=0; j<=10; j++){
-    averArray[i] = prompt('Ingresa numeros enteros para rellenar el arreglo: ');
+   var numbers = prompt("Introducir un numero entero para rellenar el arreglo: ");
+    averArray.push(numbers);
   }
   average = 
 }
