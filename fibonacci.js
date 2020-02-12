@@ -1,7 +1,7 @@
 /* 
 Declaracion de Variables y Lectura 
 */
- averArray = [];
+averArray = [];
 let averageArray = 0;
 let number = prompt('Ingresar un numero entero: ');
 
@@ -10,35 +10,32 @@ let number = prompt('Ingresar un numero entero: ');
 Funcion que calcula la sucesion 
 */
 function fibonacci(number) {
-var a = 0;
-var b = 1;
-var fibonacciArray = [0];
+  var a = 0;
+  var b = 1;
+  var fibonacciArray = [0];
 
-while(b < number) {
+  while (b < number) {
     fibonacciArray.push(b);
     b += a;
     a = b - a;
-}
+  }
 
-return fibonacciArray;
+  return fibonacciArray;
 }
-console.log(fibonacci(10));
+console.log(fibonacci(number));
 
 /* 
 Funcion que rellena un array y calcula su promedio 
 */
-function average(numbers){
-  for(let j=0; j<=10; j++){
-   var numbers = prompt("Introducir un numero entero para rellenar el arreglo: ");
-    averArray.push(numbers);
+let limite = prompt('De cuantos numeros va a constituir el arreglo?');
+let array = [];
+  for(i=0; i<limite; i++){
+    var arrayVal =+ prompt('Introduzca el valor '+i);
+    array.push(arrayVal);
   }
-  sum = 0;
-  for(let k=0; k<=10; k++){
-    sum = sum+averArray[k];
-  }
-  averageArray = sum/10;
-  return averageArray;
-}
-console.log(averageArray);
-succession();
-average();
+
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+let suma = (array.reduce(reducer)); 
+
+let promedio =suma/array.length;
+console.log("El promedio de los valores del array es: " +promedio);
