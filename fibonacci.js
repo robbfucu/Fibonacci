@@ -1,7 +1,9 @@
 /* 
 Declaracion de Variables y Lectura 
 */
-let number = prompt('Ingresar un numero: ');
+let averArray = [];
+let number = prompt('Ingresar un numero entero: ');
+let average = 0;
 
 /* 
 Funcion que calcula la sucesion 
@@ -15,6 +17,12 @@ function sucesion(number){
 }
 console.log(sucesion(number));
 
+/* 
+Funcion que rellena un array y calcula su promedio 
+*/
 function average(numbers){
-  
+  for(let j=0; j<=10; j++){
+    averArray[i] = prompt('Ingresa numeros enteros para rellenar el arreglo: ');
+  }
+  average = 
 }
