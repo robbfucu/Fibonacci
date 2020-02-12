@@ -1,21 +1,28 @@
 /* 
 Declaracion de Variables y Lectura 
 */
-let averArray = new averArray();
+ averArray = [];
+let averageArray = 0;
 let number = prompt('Ingresar un numero entero: ');
 
 
 /* 
 Funcion que calcula la sucesion 
 */
-function succession(number){
-  let arrayF = [0,1];
-  for(let i=2; i<number; i++){
-    arrayF[i]= arrayF[i-2] + arrayF[i-1];
-  }
-  return arrayF;
+function fibonacci(number) {
+var a = 0;
+var b = 1;
+var fibonacciArray = [0];
+
+while(b < number) {
+    fibonacciArray.push(b);
+    b += a;
+    a = b - a;
 }
-console.log(sucesion(number));
+
+return fibonacciArray;
+}
+console.log(fibonacci(10));
 
 /* 
 Funcion que rellena un array y calcula su promedio 
@@ -29,7 +36,9 @@ function average(numbers){
   for(let k=0; k<=10; k++){
     sum = sum+averArray[k];
   }
-  average = sum/10;
-  return average;
+  averageArray = sum/10;
+  return averageArray;
 }
+console.log(averageArray);
 succession();
+average();
