@@ -16,3 +16,5 @@ a = b - a, el valor de b sera restado al valor de a dando como resultado el nuev
 
 ```
 retornando el array hasta cumplir con la regla establecida.
+
+

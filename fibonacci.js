@@ -22,7 +22,6 @@ function fibonacci(number) {
   return fibonacciArray;
 }
 console.log(fibonacci(number));
-
 /* 
 Funcion que rellena un array y calcula su promedio 
 */
