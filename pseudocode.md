@@ -1,4 +1,6 @@
-### Pseudocodigo Fibonacci
+## Pseudocodigo Fibonacci
+
+### Primera funcion
 
 Se inicia por realizar la declaracion de variables, donde se asigna una varible para sacar el promedio.
 
@@ -17,7 +19,7 @@ a = b - a, el valor de b sera restado al valor de a dando como resultado el nuev
 ```
 retornando el array hasta cumplir con la regla establecida.
 
-## Siguiente funcion
+### Segunda funcion
 
 Se declaran las varibles donde ingresaremos el numero que tendra el arreglo y un array vacio.
 
