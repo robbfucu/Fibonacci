@@ -17,4 +17,31 @@ a = b - a, el valor de b sera restado al valor de a dando como resultado el nuev
 ```
 retornando el array hasta cumplir con la regla establecida.
 
+## Siguiente funcion
+
+Se declaran las varibles donde ingresaremos el numero que tendra el arreglo y un array vacio.
+
+Se inicia el ciclo for repetira el proceso hasta que el valor llegue al numero ingresado.
+Utilizando el metodo *push* para agregar nuevos elementos, devolviendo un nueva longitud de array.
+
+```
+let limite = prompt('De cuantos numeros va a constituir el arreglo?');
+let array = [];
+  for(i=0; i<limite; i++){
+    var arrayVal =+ prompt('Introduzca el valor '+i);
+    array.push(arrayVal);
+  }
+
+```
+Utilizando el metodo reduce donde ejecutara una funcion sobre cada elemento devolviendo un valor.
+
+```
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+let suma = (array.reduce(reducer)); 
+```
+Asignamos un variable donde se calculara el promedio, utilizando los numeros sumados dividiendolos con el nuevo array.
+```
+let promedio =suma/array.length;
+console.log("El promedio de los valores del array es: " +promedio);
+```
 
