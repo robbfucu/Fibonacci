@@ -5,7 +5,6 @@ averArray = [];
 let averageArray = 0;
 let number = prompt('Ingresar un numero entero: ');
 
-
 /* 
 Funcion que calcula la sucesion 
 */
@@ -14,7 +13,7 @@ function fibonacci(number) {
   var b = 1;
   var fibonacciArray = [0];
 
-  while (b < number) {
+  while (b <= number) {
     fibonacciArray.push(b);
     b += a;
     a = b - a;
@@ -23,7 +22,6 @@ function fibonacci(number) {
   return fibonacciArray;
 }
 console.log(fibonacci(number));
-
 /* 
 Funcion que rellena un array y calcula su promedio 
 */
