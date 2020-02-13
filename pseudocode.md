@@ -4,6 +4,11 @@
 
 Se inicia por realizar la declaracion de variables, donde se asigna una varible para sacar el promedio.
 
+```
+averArray = [];
+let averageArray = 0;
+```
+
 Se declara una funcion que calculara la sucesion, asignandole un nombre y un parametro, donde se declaran 3 variables.
 
 - a = 0
