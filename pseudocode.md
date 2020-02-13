@@ -41,7 +41,6 @@ Utilizando el metodo *push* para agregar nuevos elementos, devolviendo un nueva 
     var arrayVal =+ prompt('Introduzca el valor '+i);
     array.push(arrayVal);
   }
-
 ```
 Utilizando el metodo reduce donde ejecutara una funcion sobre cada elemento devolviendo un valor.
 
